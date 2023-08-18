@@ -11,15 +11,17 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      primary: 'rgb(var(--root-color))',
-      secondary: 'rgb(var(--root-color-secondary))',
-      gray: 'rgb(var(--root-color-gray))',
-      white: 'rgb(var(--root-color-white))',
-      black: 'rgb(var(--root-color-black))'
+      "color-root": 'rgb(var(--root-color))',
+      "color-secondary": 'rgb(var(--root-color-secondary))',
+      "color-gray": 'rgb(var(--root-color-gray))',
+      "color-white": 'rgb(var(--root-color-white))',
+      "color-black": 'rgb(var(--root-color-black))'
     },
     extend: {},
   },
   darkMode: 'class',
-  plugins: [nextui()],
+  plugins: [nextui({
+    addCommonColors: true,
+  })],
 }
 export default config
