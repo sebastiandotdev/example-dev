@@ -15,3 +15,7 @@
 
 - Here is a direct link to my web portfolio if you want to take a look
   <a href="mysiteweb.com">My Site web</a>
+
+## Setup
+
+1. Clone this repository
