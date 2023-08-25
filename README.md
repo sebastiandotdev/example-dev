@@ -19,3 +19,7 @@
 ## Setup
 
 1. Clone this repository
+
+   ```sh
+   git clone https://github.com
+   ```
